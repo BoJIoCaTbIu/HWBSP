@@ -1,0 +1,75 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+    link(href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet")
+    link(rel='stylesheet', href='./css/style.css')
+    title Main Page
+  body
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js') 
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
+
+.container
+    .row
+        .pos-f-t
+            #navbarToggleExternalContent.collapse
+                .bg-dark.p-4
+                h4.text-dark Сюдой можно заебенить чаво угодно например :
+                    a(href='http://www.vk.com', target='blank')
+                        i.fab.fa-vk
+                span.text-muted 
+            nav.navbar.navbar-dark.bg-dark
+                button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarToggleExternalContent', aria-controls='navbarToggleExternalContent', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+
+            img.rounded.float-left(src='./img/Im.jpg', alt='My Photo')
+            .text здесь можно прилепить описание итд и даже если оно вылезет и попытается перейти под изображение ему можно задать ширину и заткнуть его на место и это прекрасно.
+    .row
+        .card(style='width: 17rem;')
+            img.card-img-top(src='...', alt='Card image cap')
+            .card-body
+                h5.card-title Card title
+                p.card-text
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                a.btn.btn-primary(href='#') Go somewhere
+        .card(style='width: 17rem;')
+            img.card-img-top(src='...', alt='Card image cap')
+            .card-body
+                h5.card-title Card title
+                p.card-text
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                a.btn.btn-primary(href='#') Go somewhere
+        .card(style='width: 17rem;')
+            img.card-img-top(src='...', alt='Card image cap')
+            .card-body
+                h5.card-title Card title
+                p.card-text
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                a.btn.btn-primary(href='#') Go somewhere
+        .card(style='width: 17rem;')
+            img.card-img-top(src='...', alt='Card image cap')
+            .card-body
+                h5.card-title Card title
+                p.card-text
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                a.btn.btn-primary(href='#') Go somewhere      
+    .row.pagination
+        nav(aria-label='Page navigation example')
+        ul.pagination
+            li.page-item
+                a.page-link(href='#', aria-label='Previous')
+                    span(aria-hidden='true') «
+                    span.sr-only Previous
+            li.page-item
+              a.page-link(href='#') 1
+            li.page-item
+              a.page-link(href='#') 2
+            li.page-item
+              a.page-link(href='#') 3
+            li.page-item
+              a.page-link(href='#', aria-label='Next')
+                span(aria-hidden='true') »
+                span.sr-only Next          

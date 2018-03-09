@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+i.fab.fa-vk{
+    font-size: 50px;
+    width: 200px;
+    text-align: center;
+    
+
+}
+
+.card-body {
+    width: 250px;
+}
+
+.row.pagination{
+    justify-content: center;
+    margin-top: 20px;
+}
